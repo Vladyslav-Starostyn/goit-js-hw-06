@@ -24,11 +24,9 @@ const markupItem = images
 
 galleryEl.insertAdjacentHTML("afterbegin", markupItem);
 
-document.querySelectorAll(".picture");
-
 galleryEl.style.display = "flex";
 galleryEl.style.flexWrap = "Wrap";
 galleryEl.style.listStyle = "none";
-galleryEl.style.gap = "40px";
-galleryEl.style.justifyContent = "center";
 galleryEl.style.alignItems = "center";
+galleryEl.style.justifyContent = "center";
+galleryEl.style.gap = "40px";
