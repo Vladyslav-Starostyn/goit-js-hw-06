@@ -1,5 +1,5 @@
 const ref = {
-  input: document.querySelector("#controls>input"),
+  input: document.querySelector("#controls input"),
   buttonCreate: document.querySelector("[data-create]"),
   buttonDestroy: document.querySelector("[data-destroy]"),
   divBoxes: document.querySelector("#boxes"),
