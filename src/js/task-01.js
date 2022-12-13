@@ -8,3 +8,4 @@ Elements: ${element.children[1].children.length}`
   )
   .join("\n");
 console.log(categoriesArray);
+console.log(element);
